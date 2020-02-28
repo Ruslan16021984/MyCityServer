@@ -1,7 +1,8 @@
-package com.gmail.carbit3333333.mycity.service;
+package com.gmail.carbit3333333.mycity.service.serviceImpl;
 
 import com.gmail.carbit3333333.mycity.entity.Contact;
 import com.gmail.carbit3333333.mycity.repository.ContactRepository;
+import com.gmail.carbit3333333.mycity.service.ContactService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
