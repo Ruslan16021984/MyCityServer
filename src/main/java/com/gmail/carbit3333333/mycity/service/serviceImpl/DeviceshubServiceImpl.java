@@ -19,4 +19,11 @@ public class DeviceshubServiceImpl implements DeviceshubService {
     public List<Deviceshub> findAll() {
         return repository.findAll();
     }
+
+    @Override
+    public List<Deviceshub> deleteAll() {
+        repository.deleteAll();
+        return repository.findAll();
+    }
+
 }

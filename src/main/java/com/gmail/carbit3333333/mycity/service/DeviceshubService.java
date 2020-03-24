@@ -6,4 +6,5 @@ import java.util.List;
 
 public interface DeviceshubService {
     List<Deviceshub>findAll();
+    List<Deviceshub> deleteAll();
 }

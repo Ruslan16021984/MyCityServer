@@ -16,7 +16,12 @@ public class DeviceshubController {
     private DeviceshubService deviceshubService;
 
     @RequestMapping(value = "/list", method = RequestMethod.GET)
-    public List<Deviceshub> findAll(){
+    public List<Deviceshub> findAll() {
         return deviceshubService.findAll();
+    }
+
+    @RequestMapping(value = "/deleteAll", method = RequestMethod.DELETE)
+    public List<Deviceshub> deleteAll() {
+        return deviceshubService.deleteAll();
     }
 }
